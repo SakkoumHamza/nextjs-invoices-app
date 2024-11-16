@@ -3,8 +3,6 @@ import { z } from 'zod'
 import { sql } from '@vercel/postgres'
 import { revalidatePath } from "next/cache";
 import { redirect } from 'next/navigation'
-import {Simulate} from "react-dom/test-utils";
-import error = Simulate.error;
 import { signIn } from '@/auth';
 import { AuthError } from 'next-auth';
 
